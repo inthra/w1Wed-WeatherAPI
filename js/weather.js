@@ -1,3 +1,5 @@
+var apiKey = require('./../.env').apiKey;
+
 var Weather = function(kelvin) {
   this.kelvin = kelvin;
 };
@@ -12,9 +14,12 @@ Weather.prototype.fahrenheitConversion = function() {
   return this.fahrenheit.toFixed(2);
 };
 
-// Weather.prototype.getForecast = function(numberOfDays) {
-//
-//
-// };
+Weather.prototype.getWeather = function(city) {
+  return 'http://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=' + apiKey;
+};
+
+Weather.prototype.getForecast = function(city) {
+  return 'http://api.openweathermap.org/data/2.5/forecast?q=' + city + '&appid=' + apiKey;
+};
 
 exports.Weather = Weather;
