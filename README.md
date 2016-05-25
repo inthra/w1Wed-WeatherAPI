@@ -23,10 +23,10 @@ _DETAILED DESCRIPTION_
 
 * _Create a file in the top level of your project directory called .env (hidden file) to hold our API key. This is a common file extension for a configuration file used to set up environmental variables. Paste your API key in your .env file that you just created and store it in an exported property named apiKey._
 
-* _API key .env file example:
+* _API key .env file example:_
 **exports.apiKey = "YOUR-API-KEY-GOES-HERE";**
 
-* _In your .js file (JavaScript file) that gets access to the API key, add the following requirement:
+* _In your .js file (JavaScript file) that gets access to the API key, add the following requirement:_
 **var apiKey = require('./../.env').apiKey;**
 
 ## Known Bugs
