@@ -19,15 +19,15 @@ _DETAILED DESCRIPTION_
 
 ## Setup API Requirements
 
-* _Anyone who uses the app will need their own key in a local file with the same filename and location.
+* _Anyone who uses the app will need their own key in a local file with the same filename and location._
 
-Create a file in the top level of your project directory called .env (hidden file) to hold our API key. This is a common file extension for a configuration file used to set up environmental variables. Paste your API key in your .env file that you just created and store it in an exported property named apiKey._
+* _Create a file in the top level of your project directory called .env (hidden file) to hold our API key. This is a common file extension for a configuration file used to set up environmental variables. Paste your API key in your .env file that you just created and store it in an exported property named apiKey._
 
 * _API key .env file example:
-exports.apiKey = "YOUR-API-KEY-GOES-HERE";
+**exports.apiKey = "YOUR-API-KEY-GOES-HERE";**
 
-In your .js file (JavaScript file) that gets access to the API key, add the following requirement:
-var apiKey = require('./../.env').apiKey;_
+* _In your .js file (JavaScript file) that gets access to the API key, add the following requirement:
+**var apiKey = require('./../.env').apiKey;**
 
 ## Known Bugs
 
