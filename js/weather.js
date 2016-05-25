@@ -12,4 +12,9 @@ Weather.prototype.fahrenheitConversion = function() {
   return this.fahrenheit.toFixed(2);
 };
 
+// Weather.prototype.getForecast = function(numberOfDays) {
+//
+//
+// };
+
 exports.Weather = Weather;
