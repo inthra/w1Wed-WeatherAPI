@@ -10,7 +10,7 @@ Weather.prototype.celciusConversion = function() {
 };
 
 Weather.prototype.fahrenheitConversion = function() {
-  this.fahrenheit = (this.kelvin * (9/5) - 459.67);
+  this.fahrenheit = this.kelvin * (9/5) - 459.67;
   return this.fahrenheit.toFixed(2);
 };
 

@@ -1,16 +1,18 @@
-# _PROJECT NAME_
+# _Project: Weather API_
 
-#### _SHORT DESCRIPTION, May 25, 2016_
+#### _The project lesson on Using an API, May 25, 2016_
 
-#### By _**Nick Lyman**_
+#### By _**Inthrayuth Mahaphol**_
 
 ## Description
 
-_DETAILED DESCRIPTION_
+* Displays the humidity of a city.
+* Display the current temperature of the city. A temperature.js module will translate degrees Kelvin into Celsius and also into Fahrenheit. Include a separate temperature-interface.js file to handle triggering the API call and displaying the temperature.
+* Display data about the 5 day forecast for a given city.
 
 ## Setup/Installation Requirements
 
-* _Link to repository: https://github.com/nicklyman/ADD_REPO_NAME.git_
+* _Link to repository: https://github.com/inthra/w1Wed-WeatherAPI.git_
 * _Clone or download this repository to your Github account_
 * _Create a project directory on your computer_
 * _Have Node.js installed on your computer_
@@ -49,4 +51,4 @@ _If a bug is found, please let me know via Github. Feel free to contact me with 
 
 *This software is licensed under the MIT license*
 
-Copyright (c) 2016 **_Nick Lyman_**
+Copyright (c) 2016

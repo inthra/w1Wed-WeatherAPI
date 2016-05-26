@@ -9,13 +9,23 @@
   <body>
     <div class="container">
       <h1>Get Weather Conditions From Anywhere!</h1>
+
       <label for="location">Enter a location:</label>
       <input type="text" id="location" class="form-control"><br>
       <button class="btn btn-primary" id="weatherLocation">Get Current Humidity!</button>
       <button class="btn btn-success" id="celcius">Celcius Temperature!</button>
       <button class="btn btn-danger" id="fahrenheit">Fahrenheit Temperature!</button>
-      <div class="showWeather"></div>
-      <ul class="showForecast"></ul>
+      <br>
+      
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="showWeather"></div>
+        </div>
+
+        <div class="col-sm-6">
+          <ul class="showForecast"></ul>
+        </div>
+      </div>
     </div>
   </body>
 </html>
